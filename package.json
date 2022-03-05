@@ -36,7 +36,6 @@
     "q": "^1.5.1"
   },
   "dependencies": {
-    "glob-parent": "^6.0.2",
     "lodash": "^4.17.21",
     "main-bower-files": "^2.13.3",
     "minimatch": "^5.0.1",

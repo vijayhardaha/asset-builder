@@ -19,5 +19,6 @@
     "modernizr.js": {
       "bower": ["modernizr"]
     }
-  }
+  },
+  "useBower": true
 }

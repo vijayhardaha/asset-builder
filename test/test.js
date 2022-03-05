@@ -328,6 +328,7 @@ describe('Integration Tests', function () {
     describe('sage manifest', function () {
       it('default sage manifest', function () {
         var output = m('test/fixtures/sage.json', {
+          useBower: true,
           paths: {
             bowerDirectory: 'test/tmp/bower_components',
             bowerJson: 'test/tmp/bower.json'
