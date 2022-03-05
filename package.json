@@ -4,7 +4,7 @@
   "description": "assembles and orchestrates your dependencies so you can run them through your asset pipeline.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npx npm-force-resolutions",
+    "preinstall": "npx npm-force-resolutions",
     "coverage": "istanbul cover _mocha -- -R spec test",
     "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "docco": "docco -o site/docco lib/*.js index.js",
@@ -44,6 +44,6 @@
     "traverse": "^0.6.6"
   },
   "resolutions": {
-    "glob-parent": "^5.1.2"
+    "glob-parent": "^6.0.1"
   }
 }
